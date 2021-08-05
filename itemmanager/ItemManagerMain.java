@@ -20,6 +20,7 @@ public class ItemManagerMain extends JavaPlugin {
     private BukkitTask itemRunnable;
     private long updateTime;
     private List<String> possibleStats;
+    
     public void onEnable() {
         this.itemManager = new ItemManager();
         itemManagerMain = this;
