@@ -111,12 +111,11 @@ public class ItemManagerMain extends JavaPlugin {
             boolean unbreakable = getConfig().getBoolean("items." + configName + ".unbreakable");
             String name = getConfig().getString("items." + configName + ".display-name");
             int amount = getConfig().getInt("items." + configName + ".amount");
+            
             double kbRes = 0;
-
             if (getConfig().get("items." + configName + ".kb-res") != null) {
                 kbRes = getConfig().getDouble("items." + configName + ".kb-res");
             }
-
 
             if (getConfig().get("items." + configName + ".rgb") != null) {
                 String[] strRGB = getConfig().getString("items." + configName + ".rgb").split(",");
