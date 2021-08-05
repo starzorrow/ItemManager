@@ -1,0 +1,76 @@
+# durability:
+# -1 is infinite
+# -2 is default durability
+#
+# nbtString - Set this value for to the item name or whatever, and do not change that value, as everything will break.
+
+update-time: 5
+stats:
+  - "&7Damage"
+  - "Armour"
+  - "Dodge"
+  - "Block"
+  - "Crit Chance"
+  - "&6Crit Damage"
+  - "Health"
+  - "Health Regen"
+  - "Life Steal"
+  - "Ignition"
+  - "Reflect"
+  - "Slow"
+  - "Poison"
+  - "Wither"
+  - "Harming"
+  - "Blind"
+  - "Speed"
+  - "XP Bonus"
+  - "PvE Dmg Modifier"
+  - "PvP Dmg Modifier"
+  - "Level"
+  - "Class"
+  - "Bound to"
+  - "Weapon Speed"
+items:
+  test-item:
+    material: 276
+    glow: true
+    unbreakable: true
+    lore:
+      - "this is an item"
+      - "&c+{200-300} &7Damage"
+      - "&c+{200-300} &6Crit Damage"
+    display-name: "test-item"
+    amount: 1
+  test-item2:
+    material: 283
+    glow: false
+    unbreakable: true
+    lore:
+      - "this is another item"
+      - "&b20% Lifesteal"
+      - "&c+{200-300}-{600-700} owo"
+    display-name: "test-item2"
+    amount: 1
+  test-item3:
+    material: 301
+    glow: true
+    unbreakable: true
+    lore:
+      - "these are leather boots"
+      - "if you are gay, you wear these"
+      - "lol"
+    display-name: "test-item3"
+    amount: 1
+    rgb: "255,255,255"
+  test-item4:
+    material: 301
+    glow: true
+    unbreakable: true
+    lore:
+      - "knockback resistance"
+      - "OMGOMGOMG"
+      - "yaye"
+    display-name: "test-item4"
+    amount: 1
+    rgb: "53,255,135"
+    kb-res: 1

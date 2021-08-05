@@ -1,0 +1,9 @@
+name: ItemManager
+main: me.starzorrow.itemmanager.ItemManagerMain
+description: Manage items from a config (NOW WITH KNOCKBACK RESISTANCE!!!!!!!)
+version: 3.5
+commands:
+  giveitem:
+    description: Give yourself an item from the config.
+  imreload:
+    description: Reload the plugin config.
