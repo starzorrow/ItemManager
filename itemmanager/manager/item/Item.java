@@ -47,8 +47,8 @@ public class Item {
         }
         this.item.setItemMeta(this.getItemMeta());
     }
+    
     public Item(Material material, String name, List<String> lore, boolean glow, boolean unbreakable, int amount, String internalName, int[] rgb, double kbRes) {
-
         this.material = material;
         this.name = ItemManager.color(name);
         this.lore = ItemManager.color(lore);
@@ -107,7 +107,11 @@ public class Item {
         return this.internalName;
     }
 
-    public int[] getRGB() { return this.rgb; }
+    public int[] getRGB() {
+        return this.rgb;
+    }
 
-    public double getKbRes() { return this.kbRes; }
+    public double getKbRes() {
+        return this.kbRes;
+    }
 }
