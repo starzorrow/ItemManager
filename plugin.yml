@@ -1,6 +1,6 @@
 name: ItemManager
 main: me.starzorrow.itemmanager.ItemManagerMain
-description: Manage items from a config (NOW WITH KNOCKBACK RESISTANCE!!!!!!!)
+description: Manage items from a config
 version: 3.5
 commands:
   giveitem:
