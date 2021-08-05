@@ -57,7 +57,7 @@ items:
     unbreakable: true
     lore:
       - "these are leather boots"
-      - "if you are gay, you wear these"
+      - "are colored"
       - "lol"
     display-name: "test-item3"
     amount: 1
